@@ -55,7 +55,7 @@ app.use(
 );
 
 mongoose.connect(
-  'mongodb://localhost:27017/WebFactory_GSK',
+  'mongodb://localhost:27017/WebFactory',
   { useNewUrlParser: true },
   err => {
     if (err) {
